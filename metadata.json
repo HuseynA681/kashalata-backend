@@ -1,0 +1,6 @@
+{
+  "name": "Kashalata Order Notification",
+  "description": "Real-time push notification and order management dashboard for Kashalata Cafe staff.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
