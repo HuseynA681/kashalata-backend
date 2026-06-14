@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const DB_FILE = path.join(process.cwd(), "orders.db.json");
 
 // Middleware to parse JSON bodies
